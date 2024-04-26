@@ -7,7 +7,7 @@ body {
     font-size: 16px;
 }
 
-.profile {
+.profile, .section {
     border: 2px solid #008000;
     padding: 20px;
     margin: 20px auto;
@@ -15,14 +15,27 @@ body {
     max-width: 600px;
 }
 
-.profile h1 {
+h1, h2 {
     color: #4CAF50;
 }
 
-.profile a {
+a {
     color: #9CDCFE;
 }
 
-.profile p {
+p, li {
     line-height: 1.6;
+}
+
+ul {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0;
+}
+
+ul li ul {
+    padding-left: 20px; /* Indents sub-lists for better readability */
+}
+
+li {
+    margin-bottom: 10px; /* Adds space between list items */
 }
